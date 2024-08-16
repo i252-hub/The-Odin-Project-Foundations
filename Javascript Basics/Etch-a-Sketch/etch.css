@@ -1,0 +1,45 @@
+#h_1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 20px 0; /* Margin to separate from other content */
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6d6ee;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 640px;
+    width: 960px;
+    border: 2px solid #ccc;
+    justify-content: center; /* Center the grid if needed */
+    margin: 0 auto; /* Center the grid container if needed */
+}
+
+.grid-item{
+            flex: 1 0 6.25%; /* 100/16 = 6.25% */
+            box-sizing: border-box;
+            border: 1px solid #000;
+}
