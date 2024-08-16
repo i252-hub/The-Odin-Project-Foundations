@@ -1,3 +1,4 @@
+
 #h_1 {
     text-align: center;
     margin: 20px 0;
@@ -32,14 +33,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     height: 640px;
-    width: 960px;
-    border: 2px solid #ccc;
-    justify-content: center; /* Center the grid if needed */
-    margin: 0 auto; /* Center the grid container if needed */
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden; 
+    box-sizing: border-box;
 }
 
 .grid-item{
-            flex: 1 0 6.25%; /* 100/16 = 6.25% */
-            box-sizing: border-box;
-            border: 1px solid #000;
+    box-sizing: border-box;
+    border: 1px solid #000; 
+    background-color: #fff;
 }
